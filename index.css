@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/*MENU DO SITE */
+*{
+    margin: 0 auto;
+    padding:0;              /*BORDAS DO MENU OCUPAM TODA A TELA SEM MARGENS*/
+    box-sizing: border-box;
+}
+
+
+  .menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00008B;
+    position: fixed;
+    top:0;
+    width:100%;
+    }
+  .menu li {
+    float: left;
+  }
+  .menu li a{
+    display: block;
+    padding: 15px 26px;
+    text-align: center;
+  }
+  .menu a:link{text-decoration: none;font-family:impact;font-size: 20px;color: white;} /*DEFINIÇÃO DAS CORES DOS LINKS*/
+  .menu a:visited{text-decoration: none;color: white;}
+  .menu a:hover{text-decoration: none;color: #FFD700;}
+  .menu a:active{text-decoration: none;color: orange;}
+/*FIM MENU DO SITE*/
+/*----------------*/
+/*LAYOUT DO SITE*/
+.coluna{
+  float:left;
+  padding: 10px;
+}
+.coluna.lado{          /*CRIAÇÃO DE COLUNAS PARA A CENTRALIZAÇÃO DA ÁREA VISÍVEL*/
+  width:15%;
+}
+.coluna.meio{
+  width:70%;
+}
+/*FIM DO LAYOUT*/
+/*-------------*/
+/*BACKGROUND*/
+body{
+  background-image:linear-gradient(to bottom right,#00FF7F,#00CED1,#836FFF);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1080px;
+  background-size: cover;
+}
+/*FIM BACKGROUND*/
+/*--------------*/
+/*ELEMENTOS DE TEXTO*/
+.h1{
+  text-align:left;
+  color:white;
+  font-size:70px;
+  font-family:Cambria;
+}
+.h2{
+  font-size:35px;
+  color:#00008B;
+  font-family:Arial;
+  text-align: left;
+ 
+  
+}
+.p{
+  font-size:30px;
+  text-align:justify;
+  font-family:Franklin Gothic;
+  color:black;
+}
+/*FIM DOS ELEMENTOS DE TEXTO*/
+/*--------------------------*/
+
+/*ELEMENTOS DE IMAGEM*/
+.imagens-index{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-style: solid;
+  color:white;
+
+
+}
+/*Bordas para os links da pagina "HISTORIA"*/
+.bordas_link
+{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 4px;
+  width:400px;
+  text-align: left;
+  justify-content: left;
+  float: right;
+}
+.bordas_link a:link{text-decoration: none; color: #00008B; font-size: 17px;}
+.bordas_link a:visited{text-decoration: none; color: #00008B;}
+.bordas_link a:hover{text-decoration: none; color: white;}
+.bordas_link a:active{text-decoration: none;color: orange;}
+
+/*LISTA DOS MELHORES SURFISTAS*/
+.lista_surfistas{
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 50px;
+
+  
+}
+.lista_surfistas li {
+  border-style:hidden;
+  padding: 10px;
+  color:#ffff;
+}
+
+
+/*LINKS RELACIONADOS À PÁGINA DE REFERENCIAS*/
+.link_referencias{
+  display: inline-block;
+  text-align: left;
+  justify-content: left;
+  list-style-type: none;
+  margin: 20px;
+}
+.link_referencias a:link{text-decoration: none;color: white;font-size: 30px;}
+.link_referencias a:visited{text-decoration: none;color:white;}
+.link_referencias a:hover{text-decoration: none;color:orange;}
+.link_referencias a:active{text-decoration: none;color: yellow;}
+
+
+
+/*TABELA DE ATLETAS NA PÁGINA DE HITÓRIA*/
+
+Table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+color: white;
+width: 70%;
+}
+th, td {
+padding: 15px;
+}
+th {
+text-align: center;
+}
+
+/*IMAGENS DA PÁGINA REFERÊNCIAS*/
+
+.imagens-referencias{
+  justify-content: left;
+  width: 30%;
+  
+  
+}
+
+/*LISTA DE FILMES REFERÊNCIAS*/
+
+.lista-filmes{
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-size: 30px;
+  font-family: Impact;
+  display: inline-block;
+  padding: 50px;
+  margin: 20px;
+  
+}
+
+.lista-filmes img{
+  border-style: solid;
+  margin: 20px;
+}
+.lista-filmes a:hover{color:orange;}
+.lista-filmes a{color:white}
+
+/*QUIZ*/
+.quiz{
+  background: rgba(171, 241, 243, 0.3);
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.quiz .text{
+  color: #00008B;
+  font-size: 25px;
+}
+
+.quiz label{
+  font-size: 20px;
+  color: black;
+}
+
+.quiz button:hover{ color:#ffff; background-color: #00008B;}
+.quiz button{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display:block;
+  padding: 5px;
+  border-bottom: paleturquoise;
+  border-style: solid;
+  
+}
+
+
+
